@@ -19,10 +19,11 @@ body {
     color: var(--dark-color);
     background: var(--primary-color);
     box-shadow: -5px -5px 10px grey;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
-ul {
+ul.navleft {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -30,13 +31,19 @@ ul {
     padding: 2rem;
     font-weight: bold;
     align-items: center;
-    align-content: space-between;
 }
 
+ul.navright {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 2rem;
+    font-weight: bold;
+    align-items: center;
+}
 
 li {
-    padding-right: 4vh;
-    padding-left: 2vh;
+    padding-left: 3vh;
 }
 
 a {
@@ -48,4 +55,18 @@ a {
     width: 5vh;
     height: 5vh;
 
+}
+
+.button:hover {
+    color: green;
+
+}
+
+.btn-border{
+    border: 1px solid var(--dark-color);
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 1rem;
 }
