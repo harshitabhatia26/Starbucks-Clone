@@ -44,6 +44,7 @@ ul.navright {
 
 li {
     padding-left: 3vh;
+    font-size: 87%;
 }
 
 a {
@@ -52,14 +53,17 @@ a {
 }
 
 .fullnav img {
-    width: 5vh;
-    height: 5vh;
+    width: 6vh;
+    height: 6vh;
 
 }
 
-.button:hover {
+.btn-clean:hover {
     color: green;
+}
 
+.sign:hover {
+    background-color: rgb(232, 231, 231);
 }
 
 .btn-border{
@@ -69,4 +73,9 @@ a {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     border-radius: 1rem;
+}
+
+.special {
+    background-color: var(--dark-color);
+    color: var(--primary-color);
 }
