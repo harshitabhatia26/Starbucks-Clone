@@ -66,6 +66,10 @@ a {
     background-color: rgb(232, 231, 231);
 }
 
+.try:hover {
+    background-color: rgb(255, 220, 226);
+}
+
 .btn-border{
     border: 1px solid var(--dark-color);
     padding-top: 0.4rem;
@@ -78,4 +82,46 @@ a {
 .special {
     background-color: var(--dark-color);
     color: var(--primary-color);
+}
+
+.try {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+.grid-container {
+    margin-top: 5vh;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5vh;
+    background-color: pink;
+}
+
+.grid-item img{
+    width: 50vw;   
+    object-fit: cover;
+}
+
+
+h1 {
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 2vh;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: small;
+    padding-top: 3vh;
+}
+
+p {
+    font-size: 1.5rem;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    text-align: center;
 }
