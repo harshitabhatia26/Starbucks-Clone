@@ -70,6 +70,10 @@ a {
     background-color: rgb(255, 220, 226);
 }
 
+.order:hover {
+    background-color: rgb(255, 238, 223);
+}
+
 .btn-border{
     border: 1px solid var(--dark-color);
     padding-top: 0.4rem;
@@ -89,23 +93,41 @@ a {
     font-weight: bold;
 }
 
+.order {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
 
 .grid-container {
     margin-top: 5vh;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 5vh;
-    background-color: pink;
 }
 
 .grid-item img{
     width: 50vw;   
+    height: 50vh;
     object-fit: cover;
 }
 
+.line1 {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.line2 {
+    background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 
 h1 {
-    padding-top: 10vh;
     padding-left: 10vh;
     padding-right: 10vh;
     padding-bottom: 2vh;
