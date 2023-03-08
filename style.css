@@ -74,6 +74,10 @@ a {
     background-color: rgb(255, 238, 223);
 }
 
+.order1:hover {
+    background-color: rgb(251, 173, 173);
+}
+
 .btn-border{
     border: 1px solid var(--dark-color);
     padding-top: 0.4rem;
@@ -94,6 +98,11 @@ a {
 }
 
 .order {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.order1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
@@ -121,6 +130,14 @@ a {
 
 .line2 {
     background-color: peachpuff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.line3 {
+    background-color: rgb(255, 149, 149);
     display: flex;
     flex-direction: column;
     justify-content: center;
