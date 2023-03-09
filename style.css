@@ -170,6 +170,10 @@ p {
     grid-template-columns: repeat(5, 12rem);
     font-size: larger;
     column-gap: 1rem;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    padding-bottom: 3vh;
+    box-shadow: 0px 0px 1px black;
 }
 
 ul {
@@ -182,4 +186,34 @@ li {
 
 .heading {
     font-weight:650;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.bottom-item {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.company-rights {
+    color: grey;
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    padding-right: 1rem;
 }
