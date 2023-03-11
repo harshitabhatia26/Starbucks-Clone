@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="Starbucks-Clone\user.js"></script>
+    <script src="user.js"></script>
     <script src="https://kit.fontawesome.com/c1dfe70e38.js" crossorigin="anonymous"></script>
     <title>Account Sign In: Starbucks Coffee Company</title>
 </head>
@@ -24,14 +24,13 @@
     </div>
     <div class="sign-up-container">
         <div class="detail">
-            <div id="username">
-            Username or Email Address
-            </div>
+            <input type="text" placeholder="Enter your username" id="username">
         </div>
         <div class="detail">
-            <div id="password">
-            Password
-            </div>
+            <input type="text" placeholder="Enter your password" id="password">
+        </div>
+        <div class="sign-up">
+            <input class="activebutton" type="submit" value="Sign In" onclick="create_account()" >
         </div>
     </div>
 </signup>

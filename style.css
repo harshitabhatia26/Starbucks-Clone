@@ -237,12 +237,43 @@ li {
     flex-direction: column;
     margin: auto;
     padding: 1rem;
+    border-radius: 1.5rem;
+    border-width: 0rem;
 }
 
-.detail {
+#username {
     border-style: solid;
     border-radius: 0.5rem;
     border-color: rgb(179, 179, 179);
     padding: 1rem;
     margin: 0.5rem;
+    width: 26vw;
 }
+
+#password {
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: rgb(179, 179, 179);
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 26vw;
+}
+
+.sign-up {
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.activebutton {
+    box-shadow: 0px 3px 5px grey;
+    padding: 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: large;
+    border-radius: 1rem;
+    text-align: center;
+    border-width: 0.1rem;
+}
+
